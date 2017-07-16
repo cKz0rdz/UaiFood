@@ -13,14 +13,37 @@ export class CategoriaPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.items = [
+      {
+            'name': 'Açaí',
+            'estabelecimentos': [
+                {
+                    'name': 'Açaí da Praça',
+                    'endereco': 'Praça da Abadia nº 150',
+                    'telefone': '99999-1126',
+                    'horario': '09:00 às 22:00'
+                },
+                {
+                    'name': 'Point do Açaí',
+                    'endereco': 'Rua Campo Florido nº 215',
+                    'telefone': '99895-7277',
+                    'horario': '15:00 às 21:00'
+                }
+            ]
+        },
         {
             'name': 'Lanches',
             'estabelecimentos': [
                 {
-                    'name': 'Skinao 1',
+                    'name': 'Skinao',
                     'endereco': 'Rua A',
                     'telefone': '3421-4466',
-                    'horario': '19:00 até 04:00'
+                    'horario': '19:00 às 04:00'
+                },
+                {
+                    'name': 'Mega Lanche',
+                    'endereco': 'Avenida Presidente Juscelino Kubitschek nº 447 ',
+                    'telefone': '3429-0011',
+                    'horario': '19:00 às 06:00'
                 }
             ]
         },
@@ -28,10 +51,10 @@ export class CategoriaPage {
             'name': 'Pizzarias',
             'estabelecimentos': [
                 {
-                    'name': 'Skinao 2',
-                    'endereco': '',
-                    'telefone': '',
-                    'horario': ''
+                    'name': 'Pizzaria Tô-Ki-Tô',
+                    'endereco': 'Rua José Basmadji nº 253 ',
+                    'telefone': '3423-5791',
+                    'horario': '19:00 às 03:00'
                 }
             ]
         },
@@ -39,10 +62,16 @@ export class CategoriaPage {
             'name': 'Restaurantes',
             'estabelecimentos': [
                 {
-                    'name': 'Skinao 3',
-                    'endereco': '',
-                    'telefone': '',
-                    'horario': ''
+                    'name': 'Restaurante Cheiro Verde',
+                    'endereco': 'Rua Domiciano Ferreira nº 445 ',
+                    'telefone': '3423-6898',
+                    'horario': '11:00 às 15:00'
+                },
+                {
+                    'name': 'Restaurante Maria Fumaça',
+                    'endereco': 'Praça Doutor Alcides Paula Gomes nº 105 ',
+                    'telefone': '3421-5702',
+                    'horario': '11:00 às 15:00'
                 }
             ]
         }
